@@ -46,10 +46,10 @@ Python Scripts: Each Python script includes a sample array and key. Run the scri
 Example: python linear_search.py will output the index of the key or -1 if not found.
 
 
-**Algorithms**
+## Algorithms
 
 The repository includes the following search algorithms:
-
+```
 **Linear Search:** Sequentially checks each element. Time complexity: O(n).**
 
 Binary Search:** Divides sorted array in half repeatedly. Time complexity: O(log n).
@@ -59,12 +59,16 @@ Binary Search:** Divides sorted array in half repeatedly. Time complexity: O(log
 **Interpolation Search:** Estimates position in uniformly distributed sorted arrays. Time complexity: O(log log n) average case.
 
 **Exponential Search:** Uses exponential jumps to find a range, then applies binary search. Time complexity: O(log n).
+```
 
 
 Each algorithm is implemented in both C and Python, with comments explaining the logic.
 
-Folder Structure
 
+---
+
+## Folder Structure
+```
 search-algorithms/
 ├── c/
 │   ├── linear_search.c
@@ -80,4 +84,6 @@ search-algorithms/
 │   └── exponential_search.py
 ├── README.md
 └── .gitignore
+```
 
+---
