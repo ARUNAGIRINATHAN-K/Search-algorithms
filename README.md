@@ -1,4 +1,4 @@
-**Search Algorithms Repository**
+## Search Algorithms Repository
 
 **Description**
 
@@ -12,7 +12,7 @@ Folder Structure
 Contributing
 License
 
-**Installation**
+## Installation
 
 Prerequisites
 
@@ -36,7 +36,7 @@ Ensure Python 3 is installed.
 Run any Python script:python python/linear_search.py
 
 
-**Usage**
+## Usage
 
 C Programs: Each C file contains a main function with a sample array and key to test the algorithm. Modify the array or key in the source code to test different inputs.
 Example: ./linear_search will output the index of the key or -1 if not found.
